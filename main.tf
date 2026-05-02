@@ -11,6 +11,6 @@ terraform {
 }
 
 resource "aws_s3_bucket" "s3_tf" {
-  bucket_prefix =   # Set your bucket name here
+  bucket_prefix = wilson  # Set your bucket name here
 }
 
